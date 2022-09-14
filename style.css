@@ -1,0 +1,33 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg{
+    background: url("https://media.istockphoto.com/photos/multi-ethnic-guys-and-girls-taking-selfie-outdoors-with-backlight-picture-id1368965646?k=20&m=1368965646&s=612x612&w=0&h=l4KtTSXp0ARHvLGse-9BHCBhG3gnRR2OsZzT0LwHCVw=") no-repeat center center/cover;
+     position: absolute;
+     top: -30px;
+     left: -30px;
+     width: calc(100vw + 60px);
+     height: calc(100vh + 60px);
+     z-index: -1;
+     filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+}
